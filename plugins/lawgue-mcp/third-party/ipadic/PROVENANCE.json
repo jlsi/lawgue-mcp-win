@@ -1,0 +1,11 @@
+{
+  "source_url": "https://deb.debian.org/debian/pool/main/m/mecab-ipadic/mecab-ipadic_2.7.0-20070801+main.orig.tar.gz",
+  "source_sha256": "b62f527d881c504576baed9c6ef6561554658b175ce6ae0096a60307e49e3523",
+  "compiler": "delarocha 0.1.1",
+  "connection_id_order": "DictionaryPrior (lexicon only; no corpus input)",
+  "uncompressed_sha256": "2cbe96ed10bd49ebddb5c6ee99bd5b40b3afdcba12814e6cc412c98317d3953b",
+  "compressed_sha256": "d5bdae5de1298dc07f2080607b8e9c70968154a7527011999d2297ad046e8456",
+  "uncompressed_bytes": 40032588,
+  "copying_sha256": "fca02d9adb601d101eccdf3131119abfff2d9c825ef5c759d7a89ebbaa972099",
+  "compression": "zstd 1.5.7 -19"
+}

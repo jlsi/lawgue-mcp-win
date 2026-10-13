@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "lawgue-jade": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/elsa-headless-mcp.exe"
+    }
+  }
+}

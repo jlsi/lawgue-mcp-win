@@ -1,0 +1,5 @@
+{
+  "name": "lawgue-mcp",
+  "version": "3.2.6",
+  "description": "LAWGUE カスタムコネクタと連携して docx をローカル編集する"
+}

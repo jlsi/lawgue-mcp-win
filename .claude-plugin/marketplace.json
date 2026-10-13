@@ -1,0 +1,13 @@
+{
+  "name": "lawgue-mcp-win",
+  "owner": {
+    "name": "LAWGUE"
+  },
+  "plugins": [
+    {
+      "name": "lawgue-mcp",
+      "source": "./plugins/lawgue-mcp",
+      "description": "LAWGUE カスタムコネクタと連携して docx をローカル編集する"
+    }
+  ]
+}

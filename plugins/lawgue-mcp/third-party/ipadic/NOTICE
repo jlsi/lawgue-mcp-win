@@ -1,0 +1,10 @@
+This dictionary was compiled from mecab-ipadic 2.7.0-20070801.
+Source: https://deb.debian.org/debian/pool/main/m/mecab-ipadic/mecab-ipadic_2.7.0-20070801+main.orig.tar.gz
+Source archive SHA-256: b62f527d881c504576baed9c6ef6561554658b175ce6ae0096a60307e49e3523
+
+CSV, matrix.def, char.def and unk.def were converted from EUC-JP to UTF-8,
+then compiled with delarocha 0.1.1 (DictionaryPrior connection-id order)
+and compressed with zstd -19. No BCCWJ corpus, corpus-derived weights,
+Vibrato dictionary, customer documents or D1-Law data were used.
+COPYING is the unmodified upstream license; COPYING.UTF-8 is its
+Latin-1 to UTF-8 encoding conversion for display. See README.md.

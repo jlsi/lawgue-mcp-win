@@ -1,0 +1,10 @@
+plugins/lawgue-mcp/bin/** binary
+
+# Preserve upstream license texts verbatim, including CRLF and original spaces.
+plugins/lawgue-mcp/third-party/dependencies/NOTICES.txt -text -whitespace
+plugins/lawgue-mcp/third-party/runtime/COPYRIGHT-library.html -text -whitespace
+plugins/lawgue-mcp/third-party/runtime/licenses/** -text -whitespace
+
+# Preserve original IPADIC license bytes and its UTF-8 display copy.
+plugins/lawgue-mcp/third-party/ipadic/COPYING -text
+plugins/lawgue-mcp/third-party/ipadic/COPYING.UTF-8 text eol=lf

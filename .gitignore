@@ -1,0 +1,6 @@
+# lawgue-jade がカレントディレクトリに作る実行時キャッシュ（jwks / lease）
+.cache/
+
+# Do not distribute restricted law dictionaries or hlink configuration.
+*.hlkd
+hlk_config.json
