@@ -4,10 +4,8 @@
 
 接続先: **production（本番環境）**。
 
-Windows x64 版は Microsoft Visual C++ v14 ランタイムが必要です。
-`VCRUNTIME140.dll` が見つからない場合は、管理者の方針に従って
-[Microsoft 公式の Visual C++ Redistributable（x64）](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-をインストールしてください。本リポジトリに runtime DLL や再頒布パッケージは同梱していません。
+Windows x64 版は C/C++ ランタイムを静的リンクしています。
+Microsoft Visual C++ Redistributable の追加インストールは不要です。
 
 ## 1. Remote コネクタを登録する
 

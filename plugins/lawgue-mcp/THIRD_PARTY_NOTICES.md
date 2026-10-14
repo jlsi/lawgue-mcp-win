@@ -8,15 +8,15 @@ JLSI のソフトウェアのご利用条件は、[LAWGUE 利用規約](https://
 
 ## Windows 実行ファイルの署名
 
-同梱した実行ファイルは、Elsa 2.53.9 の正式リリースの署名済みバイナリです。
-[配布 CI](https://github.com/jlsi/elsa/actions/runs/38332720801)で Authenticode が `Valid`、
+同梱した実行ファイルは、Elsa 2.53.14 の正式リリースの署名済みバイナリです。
+[配布 CI](https://github.com/jlsi/elsa/actions/runs/38507389508)で Authenticode が `Valid`、
 署名者が FRAIM Inc.、GlobalSign のタイムスタンプがあること、および署名後の起動を確認しました。
 取得元・SHA-256 は `BUILD_DEPENDENCIES.json` に記録しています。
 
 ## ビルドの依存物
 
-[Elsa 2.53.9](https://github.com/jlsi/elsa/releases/tag/2.53.9)（ソース commit `1e4b93584832ab448c2dcebab18f5138d8305ef4`）の
-[配布ビルド](https://github.com/jlsi/elsa/actions/runs/38332720801) に対応する
+[Elsa 2.53.14](https://github.com/jlsi/elsa/releases/tag/2.53.14)（ソース commit `840706b24b032c50b124169f6e6d27bf62a65de9`）の
+[配布ビルド](https://github.com/jlsi/elsa/actions/runs/38507389508) に対応する
 Cargo.lock と対象別 `cargo tree --locked -p elsa-headless-mcp` に基づく一覧です。
 macOS arm64 は 285、Windows x64 は 292、重複を除いて 292 パッケージです。
 ビルドツール・proc macro を含みます。リンクされたコードだけの SBOM ではありません。
@@ -35,8 +35,8 @@ ring / zstd-sys 等のパッケージ内の第三者表示も収録していま�
 
 Rust 標準ライブラリの著作権・ライセンス全文と、OS / MSVC runtime の確認結果は
 [runtime の表示と配布範囲](third-party/runtime/README.md) に収録しています。
-Rust 1.99.0 の公式表示を保持しています。Windows の runtime DLL / 再頒布インストーラー、
-macOS の OS dylib は同梱せず、利用者の端末にあるものを参照します。
+Rust 1.99.0 の公式表示を保持しています。Windows 版は C/C++ ランタイムを静的リンクしています。
+Windows の runtime DLL / 再頒布インストーラー、macOS の OS dylib は同梱していません。
 
 ## UniFFI — MPL-2.0 のソース入手先
 
