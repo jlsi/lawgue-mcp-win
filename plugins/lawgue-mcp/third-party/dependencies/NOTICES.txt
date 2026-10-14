@@ -1,6 +1,6 @@
 THIRD-PARTY LICENSE AND COPYRIGHT TEXTS
 
-Generated from elsa hlink-free target dependency trees (2026-10-13; Elsa 2.53.9).
+Generated from elsa hlink-free target dependency trees (2026-10-14; Elsa 2.53.14).
 This conservative inventory includes build tools, proc macros, and vendored
 license texts; it is not a claim that every listed file is linked into the
 executable. Original file contents follow each header unchanged. Identical

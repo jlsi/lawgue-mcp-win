@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "release": "elsa 2.53.9 (without hlink; original IPADIC)",
-  "source_commit": "1e4b93584832ab448c2dcebab18f5138d8305ef4",
-  "build_run": "https://github.com/jlsi/elsa/actions/runs/38332720801",
+  "release": "elsa 2.53.14 (without hlink; original IPADIC; static Windows CRT)",
+  "source_commit": "840706b24b032c50b124169f6e6d27bf62a65de9",
+  "build_run": "https://github.com/jlsi/elsa/actions/runs/38507389508",
   "scope": "Packages resolved in cargo tree for the distributed targets, including build dependencies; not a linked-code SBOM. Data dictionaries and native/toolchain runtime components are documented separately in THIRD_PARTY_NOTICES.md.",
   "target_package_counts": {
     "x86_64-pc-windows-msvc": 292,
@@ -1181,7 +1181,7 @@
       "name": "docx-chunker",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/elsa/tree/1e4b93584832ab448c2dcebab18f5138d8305ef4",
+      "source": "https://github.com/jlsi/elsa/tree/840706b24b032c50b124169f6e6d27bf62a65de9",
       "source_locator": null,
       "registry_checksum": null,
       "build_targets": [
@@ -1195,7 +1195,7 @@
       "name": "elsa-headless-mcp",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/elsa/tree/1e4b93584832ab448c2dcebab18f5138d8305ef4",
+      "source": "https://github.com/jlsi/elsa/tree/840706b24b032c50b124169f6e6d27bf62a65de9",
       "source_locator": null,
       "registry_checksum": null,
       "build_targets": [
@@ -1282,8 +1282,8 @@
       "name": "english-tokenizer",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/fraim-lint-rs/tree/9412209e078c2ac680352e1c936042d273286b83",
-      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?rev=9412209e078c2ac680352e1c936042d273286b83#9412209e078c2ac680352e1c936042d273286b83",
+      "source": "https://github.com/jlsi/fraim-lint-rs/tree/46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
+      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?tag=0.1.103#46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
       "registry_checksum": null,
       "build_targets": [
         "aarch64-apple-darwin",
@@ -1564,8 +1564,8 @@
       "name": "fraim-lint",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/fraim-lint-rs/tree/9412209e078c2ac680352e1c936042d273286b83",
-      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?rev=9412209e078c2ac680352e1c936042d273286b83#9412209e078c2ac680352e1c936042d273286b83",
+      "source": "https://github.com/jlsi/fraim-lint-rs/tree/46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
+      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?tag=0.1.103#46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
       "registry_checksum": null,
       "build_targets": [
         "aarch64-apple-darwin",
@@ -1578,8 +1578,8 @@
       "name": "fraim-lint-core",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/fraim-lint-rs/tree/9412209e078c2ac680352e1c936042d273286b83",
-      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?rev=9412209e078c2ac680352e1c936042d273286b83#9412209e078c2ac680352e1c936042d273286b83",
+      "source": "https://github.com/jlsi/fraim-lint-rs/tree/46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
+      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?tag=0.1.103#46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
       "registry_checksum": null,
       "build_targets": [
         "aarch64-apple-darwin",
@@ -2678,8 +2678,8 @@
       "name": "law-name-lint",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/fraim-lint-rs/tree/9412209e078c2ac680352e1c936042d273286b83",
-      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?rev=9412209e078c2ac680352e1c936042d273286b83#9412209e078c2ac680352e1c936042d273286b83",
+      "source": "https://github.com/jlsi/fraim-lint-rs/tree/46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
+      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?tag=0.1.103#46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
       "registry_checksum": null,
       "build_targets": [
         "aarch64-apple-darwin",
@@ -2757,7 +2757,7 @@
       "name": "mecab-dict",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/elsa/tree/1e4b93584832ab448c2dcebab18f5138d8305ef4",
+      "source": "https://github.com/jlsi/elsa/tree/840706b24b032c50b124169f6e6d27bf62a65de9",
       "source_locator": null,
       "registry_checksum": null,
       "build_targets": [
@@ -2898,8 +2898,8 @@
       "name": "mock-tokenizer",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/fraim-lint-rs/tree/9412209e078c2ac680352e1c936042d273286b83",
-      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?rev=9412209e078c2ac680352e1c936042d273286b83#9412209e078c2ac680352e1c936042d273286b83",
+      "source": "https://github.com/jlsi/fraim-lint-rs/tree/46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
+      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?tag=0.1.103#46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
       "registry_checksum": null,
       "build_targets": [
         "aarch64-apple-darwin",
@@ -2931,8 +2931,8 @@
       "name": "notation-unify",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/fraim-lint-rs/tree/9412209e078c2ac680352e1c936042d273286b83",
-      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?rev=9412209e078c2ac680352e1c936042d273286b83#9412209e078c2ac680352e1c936042d273286b83",
+      "source": "https://github.com/jlsi/fraim-lint-rs/tree/46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
+      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?tag=0.1.103#46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
       "registry_checksum": null,
       "build_targets": [
         "aarch64-apple-darwin",
@@ -3037,7 +3037,7 @@
       "name": "numbering-matcher",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/elsa/tree/1e4b93584832ab448c2dcebab18f5138d8305ef4",
+      "source": "https://github.com/jlsi/elsa/tree/840706b24b032c50b124169f6e6d27bf62a65de9",
       "source_locator": null,
       "registry_checksum": null,
       "build_targets": [
@@ -3096,7 +3096,7 @@
       "name": "ooxml-flatten",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/elsa/tree/1e4b93584832ab448c2dcebab18f5138d8305ef4",
+      "source": "https://github.com/jlsi/elsa/tree/840706b24b032c50b124169f6e6d27bf62a65de9",
       "source_locator": null,
       "registry_checksum": null,
       "build_targets": [
@@ -3110,7 +3110,7 @@
       "name": "ooxml-parser",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/elsa/tree/1e4b93584832ab448c2dcebab18f5138d8305ef4",
+      "source": "https://github.com/jlsi/elsa/tree/840706b24b032c50b124169f6e6d27bf62a65de9",
       "source_locator": null,
       "registry_checksum": null,
       "build_targets": [
@@ -3124,7 +3124,7 @@
       "name": "ooxml-resources",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/elsa/tree/1e4b93584832ab448c2dcebab18f5138d8305ef4",
+      "source": "https://github.com/jlsi/elsa/tree/840706b24b032c50b124169f6e6d27bf62a65de9",
       "source_locator": null,
       "registry_checksum": null,
       "build_targets": [
@@ -3444,8 +3444,8 @@
       "name": "reference-resolver",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/fraim-lint-rs/tree/9412209e078c2ac680352e1c936042d273286b83",
-      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?rev=9412209e078c2ac680352e1c936042d273286b83#9412209e078c2ac680352e1c936042d273286b83",
+      "source": "https://github.com/jlsi/fraim-lint-rs/tree/46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
+      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?tag=0.1.103#46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
       "registry_checksum": null,
       "build_targets": [
         "aarch64-apple-darwin",
@@ -4041,8 +4041,8 @@
       "name": "shared",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/fraim-lint-rs/tree/9412209e078c2ac680352e1c936042d273286b83",
-      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?rev=9412209e078c2ac680352e1c936042d273286b83#9412209e078c2ac680352e1c936042d273286b83",
+      "source": "https://github.com/jlsi/fraim-lint-rs/tree/46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
+      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?tag=0.1.103#46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
       "registry_checksum": null,
       "build_targets": [
         "aarch64-apple-darwin",
@@ -4624,8 +4624,8 @@
       "name": "tokenizer-delarocha",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/fraim-lint-rs/tree/9412209e078c2ac680352e1c936042d273286b83",
-      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?rev=9412209e078c2ac680352e1c936042d273286b83#9412209e078c2ac680352e1c936042d273286b83",
+      "source": "https://github.com/jlsi/fraim-lint-rs/tree/46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
+      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?tag=0.1.103#46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
       "registry_checksum": null,
       "build_targets": [
         "aarch64-apple-darwin",
@@ -5399,8 +5399,8 @@
       "name": "voice-lint",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/fraim-lint-rs/tree/9412209e078c2ac680352e1c936042d273286b83",
-      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?rev=9412209e078c2ac680352e1c936042d273286b83#9412209e078c2ac680352e1c936042d273286b83",
+      "source": "https://github.com/jlsi/fraim-lint-rs/tree/46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
+      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?tag=0.1.103#46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
       "registry_checksum": null,
       "build_targets": [
         "aarch64-apple-darwin",
@@ -5809,8 +5809,8 @@
       "name": "word-lint",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/fraim-lint-rs/tree/9412209e078c2ac680352e1c936042d273286b83",
-      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?rev=9412209e078c2ac680352e1c936042d273286b83#9412209e078c2ac680352e1c936042d273286b83",
+      "source": "https://github.com/jlsi/fraim-lint-rs/tree/46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
+      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?tag=0.1.103#46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
       "registry_checksum": null,
       "build_targets": [
         "aarch64-apple-darwin",
@@ -5880,8 +5880,8 @@
       "name": "youjiyougo-dsl",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/fraim-lint-rs/tree/9412209e078c2ac680352e1c936042d273286b83",
-      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?rev=9412209e078c2ac680352e1c936042d273286b83#9412209e078c2ac680352e1c936042d273286b83",
+      "source": "https://github.com/jlsi/fraim-lint-rs/tree/46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
+      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?tag=0.1.103#46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
       "registry_checksum": null,
       "build_targets": [
         "aarch64-apple-darwin",
@@ -5894,8 +5894,8 @@
       "name": "youjiyougo-linter",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/fraim-lint-rs/tree/9412209e078c2ac680352e1c936042d273286b83",
-      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?rev=9412209e078c2ac680352e1c936042d273286b83#9412209e078c2ac680352e1c936042d273286b83",
+      "source": "https://github.com/jlsi/fraim-lint-rs/tree/46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
+      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?tag=0.1.103#46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
       "registry_checksum": null,
       "build_targets": [
         "aarch64-apple-darwin",
@@ -5908,8 +5908,8 @@
       "name": "youjiyougo-parser",
       "version": "0.1.0",
       "license": null,
-      "source": "https://github.com/jlsi/fraim-lint-rs/tree/9412209e078c2ac680352e1c936042d273286b83",
-      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?rev=9412209e078c2ac680352e1c936042d273286b83#9412209e078c2ac680352e1c936042d273286b83",
+      "source": "https://github.com/jlsi/fraim-lint-rs/tree/46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
+      "source_locator": "git+https://github.com/jlsi/fraim-lint-rs?tag=0.1.103#46c461b36aabc3f71894ac0e0ed5c7e74af725d5",
       "registry_checksum": null,
       "build_targets": [
         "aarch64-apple-darwin",
@@ -6224,23 +6224,23 @@
       "review_status": "license-texts-collected"
     }
   ],
-  "release_url": "https://github.com/jlsi/elsa/releases/tag/2.53.9",
+  "release_url": "https://github.com/jlsi/elsa/releases/tag/2.53.14",
   "release_artifact": {
-    "url": "https://github.com/jlsi/elsa/releases/download/2.53.9/elsa-headless-mcp-x86_64-pc-windows-msvc.zip",
-    "archive_sha256": "c812c04b18b440832b9995ac5732d1d44e80308ad1d3ebf7293f463977b3153b",
+    "url": "https://github.com/jlsi/elsa/releases/download/2.53.14/elsa-headless-mcp-x86_64-pc-windows-msvc.zip",
+    "archive_sha256": "48522f24e2e658b23ba1c54f291996ce0cb726641a530a7c36334718a9780d69",
     "executable": "elsa-headless-mcp.exe",
-    "executable_sha256": "9ed0318f226c51a7d6eeb7a3e4899ea8b62bf839e99703875d09b133524740e9"
+    "executable_sha256": "0e35ac5b0b68e96214c12900100213ba921b4c834416edb8a0d61bbc84eaf3c0"
   },
   "signing": {
     "method": "Windows Authenticode",
     "publisher": "FRAIM Inc.",
     "signature_status": "Valid",
     "timestamp_verified": true,
-    "run": "https://github.com/jlsi/elsa/actions/runs/38332720801",
-    "artifact_url": "https://github.com/jlsi/elsa/releases/download/2.53.9/elsa-headless-mcp-x86_64-pc-windows-msvc.zip",
-    "archive_sha256": "c812c04b18b440832b9995ac5732d1d44e80308ad1d3ebf7293f463977b3153b",
-    "signed_executable_sha256": "9ed0318f226c51a7d6eeb7a3e4899ea8b62bf839e99703875d09b133524740e9",
-    "note": "The official 2.53.9 release asset is signed and is distributed without modification. Signature and post-signing smoke checks passed in the Windows release job."
+    "run": "https://github.com/jlsi/elsa/actions/runs/38507389508",
+    "artifact_url": "https://github.com/jlsi/elsa/releases/download/2.53.14/elsa-headless-mcp-x86_64-pc-windows-msvc.zip",
+    "archive_sha256": "48522f24e2e658b23ba1c54f291996ce0cb726641a530a7c36334718a9780d69",
+    "signed_executable_sha256": "0e35ac5b0b68e96214c12900100213ba921b4c834416edb8a0d61bbc84eaf3c0",
+    "note": "The official 2.53.14 release asset is signed and distributed without modification. Static CRT, Authenticode and post-signing MCP smoke checks passed in the Windows release job."
   },
   "first_party_terms_url": "https://lawgue.com/terms/"
 }

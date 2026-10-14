@@ -1,11 +1,11 @@
 # Toolchain / native runtime notices
 
-確認日: 2026-10-13。Cargo 依存物の表示に加え、実行ファイルを生成した toolchain と
+確認日: 2026-10-14。Cargo 依存物の表示に加え、実行ファイルを生成した toolchain と
 動的リンク先を確認しました。これはリンクされたコードだけを列挙した SBOM ではありません。
 
 ## Rust 標準ライブラリ
 
-Elsa 2.53.9 の配布 workflow は Rust `1.99.0` を指定しています。
+Elsa 2.53.14 の配布 workflow は Rust `1.99.0` を指定しています。
 `rustc 1.99.0 (b940084d7 2026-09-28)`、commit `b940084d7eb6a299eb4bfeb8e34901bc051e7ac4` の
 公式 rustup toolchain が配布する標準ライブラリの著作権・ライセンス表示を、改変せず収録しています。
 
@@ -20,13 +20,14 @@ Elsa 2.53.9 の配布 workflow は Rust `1.99.0` を指定しています。
 [Rust の著作権表示の説明](https://github.com/rust-lang/rust/blob/1.99.0/COPYRIGHT)
 も参照してください。
 
-## Windows の動的リンク先
+## Windows の C/C++ ランタイム
 
-配布する 2.53.9 x64 EXE の PE import table に `VCRUNTIME140.dll`、UCRT の
-`api-ms-win-crt-*`、Windows の kernel32 / ntdll / ws2_32 / bcrypt / bcryptprimitives / advapi32 /
-api-ms-win-core-synch を確認しました。配布 ZIP は EXE 1 個のみで、これらの DLL と
+配布する 2.53.14 x64 EXE は C/C++ ランタイムを静的リンクしています。
+最終 EXE の通常・遅延読み込みの DLL 依存を確認し、VCRUNTIME / MSVCP / UCRT DLL
+への依存がないことを確認しました。Microsoft Visual C++ Redistributable の追加導入は不要です。
+
+動的リンク先は Windows の kernel32 / ntdll / ws2_32 / bcrypt / bcryptprimitives / advapi32 /
+api-ms-win-core-synch です。配布 ZIP は署名済み EXE 1 個のみで、runtime DLL や
 Visual C++ Redistributable のインストーラーは同梱していません。
 
-OS と利用者側で導入した Microsoft ランタイムを参照します。
-必要な場合は [Microsoft の公式案内](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-に従って x64 版を導入してください。
+静的リンクしたランタイムの修正は、実行ファイルの更新で反映されます。

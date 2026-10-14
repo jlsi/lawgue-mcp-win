@@ -26,7 +26,7 @@
     <div class="arch-card"><b>Remote：LAWGUE コネクタ</b><p>LAWGUE への検索・取得・保存。利用者本人の権限でアクセスします。</p></div><div class="plus">＋</div>
     <div class="arch-card"><b>Local：lawgue-jade</b><p>docx の解析・編集。対応 OS の端末で実行します。</p></div>
   </div>
-  <section class="panel"><h2>導入前に確認すること</h2><p>Windows x64 版は Microsoft Visual C++ v14 ランタイムが必要です。<code>VCRUNTIME140.dll</code> が見つからない場合は、管理者の方針に従って <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170">Microsoft 公式の Visual C++ Redistributable（x64）</a> をインストールしてください。runtime DLL や再頒布パッケージは同梱していません。</p><p>LAWGUE アカウント、対象文書への権限、ローカル編集機能の利用権、対応 OS が必要です。Claude 側のプラン・組織ポリシーでもコネクタとプラグインの利用が許可されていることを確認します。</p><p>ローカル編集でも、ツールが返す本文やコメントは AI サービスへ渡ります。組織の情報管理方針と各サービスのデータ取扱条件に従ってください。</p></section>
+  <section class="panel"><h2>導入前に確認すること</h2><p>Windows x64 版は C/C++ ランタイムを静的リンクしています。Microsoft Visual C++ Redistributable の追加インストールは不要です。</p><p>LAWGUE アカウント、対象文書への権限、ローカル編集機能の利用権、対応 OS が必要です。Claude 側のプラン・組織ポリシーでもコネクタとプラグインの利用が許可されていることを確認します。</p><p>ローカル編集でも、ツールが返す本文やコメントは AI サービスへ渡ります。組織の情報管理方針と各サービスのデータ取扱条件に従ってください。</p></section>
   <section class="panel"><h2>利用する画面と配布物</h2><p>このリポジトリは端末上の Claude Code 用です。Desktop のチャットには、別途対応 OS の <code>.mcpb</code> が必要です。本リポジトリに <code>.mcpb</code> はありません。Cowork はプラグイン内 Local MCP に対応していますが、本バイナリの Cowork 実行環境での動作は未確認です。Web・モバイルのチャットでは、この端末用バイナリを実行できません。</p><p><a href="https://support.claude.com/en/articles/11725091-when-to-use-desktop-and-web-connectors">接続方式の公式説明</a>を参照してください。</p></section>
   <h2 class="section-title">Remote コネクタを登録する</h2>
   <div class="steps">
