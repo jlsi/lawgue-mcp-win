@@ -6,3 +6,8 @@ LAWGUE と AI アシスタントを連携するためのプラグインです。
 
 第三者ソフトウェアの権利表示は
 [THIRD_PARTY_NOTICES.md](plugins/lawgue-mcp/THIRD_PARTY_NOTICES.md) を参照してください。
+
+## セキュリティ更新の確認
+
+プラグイン 3.2.8 / Elsa 2.55.12 の成果物・依存版・署名状態は
+[配布確認記録](SECURITY_VERIFICATION.md) を参照してください。

@@ -8,17 +8,17 @@ JLSI のソフトウェアのご利用条件は、[LAWGUE 利用規約](https://
 
 ## Windows 実行ファイルの署名
 
-同梱した実行ファイルは、Elsa 2.53.14 の正式リリースの署名済みバイナリです。
-[配布 CI](https://github.com/jlsi/elsa/actions/runs/38507389508)で Authenticode が `Valid`、
+同梱した実行ファイルは、Elsa 2.55.12 の正式リリースの署名済みバイナリです。
+[配布 CI](https://github.com/jlsi/elsa/actions/runs/40272500815)で Authenticode が `Valid`、
 署名者が FRAIM Inc.、GlobalSign のタイムスタンプがあること、および署名後の起動を確認しました。
 取得元・SHA-256 は `BUILD_DEPENDENCIES.json` に記録しています。
 
 ## ビルドの依存物
 
-[Elsa 2.53.14](https://github.com/jlsi/elsa/releases/tag/2.53.14)（ソース commit `840706b24b032c50b124169f6e6d27bf62a65de9`）の
-[配布ビルド](https://github.com/jlsi/elsa/actions/runs/38507389508) に対応する
+[Elsa 2.55.12](https://github.com/jlsi/elsa/releases/tag/2.55.12)（ソース commit `55de35ba4b2e95051f9fe570273c1bdb982bb361`）の
+[配布ビルド](https://github.com/jlsi/elsa/actions/runs/40272500815) に対応する
 Cargo.lock と対象別 `cargo tree --locked -p elsa-headless-mcp` に基づく一覧です。
-macOS arm64 は 285、Windows x64 は 292、重複を除いて 292 パッケージです。
+macOS arm64 は 311、Windows x64 は 313、重複を除いて 315 パッケージです。
 ビルドツール・proc macro を含みます。リンクされたコードだけの SBOM ではありません。
 hlink 系と d1sys はこの依存ツリーに含まれません。
 
@@ -26,7 +26,8 @@ hlink 系と d1sys はこの依存ツリーに含まれません。
 - [NOTICES.txt](third-party/dependencies/NOTICES.txt): ライセンス・著作権・NOTICE の原文。同一原文は SHA-256 でまとめています。
 
 crates.io アーカイブは Cargo.lock の SHA-256 と照合しました。
-パッケージに全文が入っていないものは、その Git revision の上流から取得しました。
+パッケージ内と Git checkout のリポジトリルートのライセンス表示を収集しました。
+同一原文は SHA-256 でまとめ、現在のパッケージとの対応を保持しています。
 emf-core / wmf-core のリポジトリルートの MIT LICENSE、delarocha 0.1.1 の MIT / Apache-2.0 全文、
 ring / zstd-sys 等のパッケージ内の第三者表示も収録しています。
 本ビルドの Cargo 依存ツリーに `zig-ffi` は含まれません。
@@ -43,7 +44,7 @@ Windows の runtime DLL / 再頒布インストーラー、macOS の OS dylib �
 UniFFI 系 8 パッケージの使用版はすべて `0.30.0` です。
 MPL-2.0 の全文は上記 NOTICES.txt に収録しています。
 該当するソースコードは、追加の料金なく各パッケージの crates.io ソースアーカイブから入手できます。
-以下のアーカイブと照合し、使用したローカルのソース全ファイルが未変更であることを確認しました。
+以下のアーカイブは Cargo.lock の checksum と照合しました。
 
 | パッケージ | 使用版のソース |
 | --- | --- |
